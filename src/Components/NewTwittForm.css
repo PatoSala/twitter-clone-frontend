@@ -1,0 +1,82 @@
+.new-twitt-container {
+    width: 40vw;
+    border-style: solid;
+    border-width: 0px 0px 1px;
+    border-color: #213440;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .new-twitt-container {
+        width: 90vw;
+    }
+}
+
+.profile-bubble {
+    width: 48px;
+    aspect-ratio: 1 / 1;
+    background-color: #213440;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.twitt-form-header {
+    height: 10px;
+}
+
+.twitt-form-header-title {
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.new-twitt-input {
+    width: 100%;
+    height: 52px;
+    background-color: transparent;
+    border-width: 0px;
+    color: #71767B;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.new-twitt-input:focus {
+    outline: none;
+}
+
+.left-content {
+    width: 48px;
+}
+
+.right-content {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.submit-btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.post-twitt-btn {
+    color: #fff;
+    width: 100px;
+    height: 36px;
+    background-color: #1d9bf0;
+    border: 0px;
+    border-radius: 30px;
+    font-weight: 700;
+    align-self: flex-end;
+}
